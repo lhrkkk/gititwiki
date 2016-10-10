@@ -1,4 +1,5 @@
-@import url("hk-pyg.css"); /* for syntax highlighting */
+@import url("hk-pyg.css"); 
+/* for syntax highlighting */
 
 /* Put your custom style modifications here: */
 
@@ -130,4 +131,71 @@ blockquote {
 }
 #content img{
     max-width: 100%;
+}
+
+
+
+/*==========site.css=========*/
+body {
+  font-family: 'Helvetica Neue', Verdana, Helvetica, Arial, sans-serif;
+  /*max-width: 600px;*/
+  /*margin: 0 auto;*/
+  /*padding-top: 50px;*/
+  -webkit-font-smoothing: antialiased;
+  /*font-size: 1.125em;*/
+  color: #333;
+  /*line-height: 1.5em;*/
+}
+
+div.container-fluid {
+  /*background-image: url('images/labkit.jpg');*/
+}
+
+h1, h2, h3 {
+  color: #000;
+}
+h1 {
+  font-size: 2.5em
+}
+
+h2 {
+  font-size: 2em
+}
+
+h3 {
+  font-size: 1.5em
+}
+
+a {
+  text-decoration: none;
+  color: #09f;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/*div.labkit-home-img {*/
+  /*position: relative;*/
+  /*background-image: url("/images/labkit.png");*/
+  /*background-size:10% 100%;*/
+  /*padding: 0px 0px ;*/
+  /*text-align: center;*/
+  /*width:100%;*/
+  /*height: auto;*/
+/*}*/
+/**/
+/*img { width:100%; height: auto; }*/
+
+
+.bs-masthead {
+  color: #cdbfe3;
+  /*background-color: #563d7c;*/
+  background-color: #010485;
+  background-size:100% auto;
+
+  /*background: #010485 url('/images/labkit.png')  no-repeat;*/
+  background-image:  url('../images/labkit.png')  ;
+  background-repeat: no-repeat;
+
 }

@@ -186,6 +186,7 @@ git push origin master
 
 ## v0.0.0.1
 - 初步实现，整合 ace、markdown、highlightjs 等
+- 更改highlightjs主题在static/js/base_config.js文件里的`highlightjs`块
 
 # Links
 - Github：[https://github.com/shajiquan/gitit-bigger](https://github.com/shajiquan/gitit-bigger)

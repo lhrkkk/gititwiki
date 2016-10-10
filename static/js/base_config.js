@@ -179,7 +179,9 @@ BIGGER_SETTINGS_BASE = {
     // more about highlightjs: https://highlightjs.org/
     "highlightjs": {
         "enable": true,
-        "theme": "monokai_sublime"
+        // "theme": "monokai_sublime"
+        // "theme": "github"
+        "theme": "xcode"
     },
     "google_analytics_id": "",
     "target_blank": false,

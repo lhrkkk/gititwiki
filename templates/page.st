@@ -18,7 +18,6 @@
         <div class="container">
             $header_nav()$
         </div>
-
         <div class="container">
             <div class="row">
                 <div class="col-md-10 " id="maincol">
