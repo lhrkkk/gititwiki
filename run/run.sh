@@ -1,8 +1,10 @@
 #!/bin/bash
-path_current_dir=$(cd `dirname $0`; pwd)
-path_parrent_dir=$(cd $path_current_dir;cd ..;pwd)
+#path_current_dir=$(cd `dirname $0`; pwd)
+#path_parrent_dir=$(cd $path_current_dir;cd ..;pwd)
+#cd $path_parrent_dir
 
-cd $path_parrent_dir
+config_dir=$HOME/.labkit/config/wiki
+cd $config_dir
 
 conf_file=my-gitit.conf
 pid_file=pid-my-gitit.conf.pid

@@ -1,6 +1,6 @@
 .gitignore
 supervisord.conf
-#my-gitit*.conf
+my-gitit*.conf
 
 gitit-users
 templates/page_more_scripts.st
